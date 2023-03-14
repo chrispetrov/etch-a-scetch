@@ -19,7 +19,7 @@ body{
 }
 .box{
     
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     border: 1px solid black;
     flex: 1 1 auto;
 }
