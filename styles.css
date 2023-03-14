@@ -1,8 +1,11 @@
-.container{
+#container{
     display: flex;
     height: 640px;
     width: 640px;
     background-color: white;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
     
 }
 body{
@@ -13,4 +16,10 @@ body{
     justify-content: center;
     align-items: center;
     gap: 12px;
+}
+.box{
+    
+    background-color: aqua;
+    border: 1px solid black;
+    flex: 1 1 auto;
 }
